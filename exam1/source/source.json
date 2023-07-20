@@ -1,0 +1,176 @@
+{
+    "title": "Exam test",
+    "examId": 0,
+    "maxScore": 20.0,
+    "numberOfExercises": 2,
+    "lenStudentId": 8,
+    "message": "Ceci est un examen pour tester la structure de données définie dans le projet",
+    "exercises": [
+        {
+            "maxScoreExercise": 10.0,
+            "eSText": "Ceci est le premier exercice",
+            "numberOfQuestions": 3,
+            "qOrganization": false,
+            "questions": [
+                {
+                    "maxScoreQuestion": 2.5,
+                    "minScoreQuestion": 0.0,
+                    "qStatement": "Choisissez les nombres supérieurs à 3",
+                    "numberOfAnswers": 3,
+                    "questionType": "MCQ",
+                    "answers": [
+                        {
+                            "answerLabel": "3,000000001",
+                            "score": 1.25
+                        },
+                        {
+                            "answerLabel": "2,999",
+                            "score": -2.5
+                        },
+                        {
+                            "answerLabel": "3,001",
+                            "score": 1.25
+                        }
+                    ]
+                },
+                {
+                    "maxScoreQuestion": 2.5,
+                    "minScoreQuestion": 0.0,
+                    "qStatement": "Combien font 2+2 ?",
+                    "numberOfAnswers": 4,
+                    "questionType": "OneInN",
+                    "answers": [
+                        {
+                            "answerLabel": "0",
+                            "score": 0
+                        },
+                        {
+                            "answerLabel": "1",
+                            "score": 0
+                        },
+                        {
+                            "answerLabel": "4",
+                            "score": 2.5
+                        },
+                        {
+                            "answerLabel": "2",
+                            "score": 0
+                        }
+                    ]
+                },
+                {
+                    "maxScoreQuestion": 2.5,
+                    "minScoreQuestion": 0.0,
+                    "qStatement": "Indiquez les valeurs sqrt(4)",
+                    "numberOfAnswers": 4,
+                    "questionType": "MCQ",
+                    "answers": [
+                        {
+                            "answerLabel": "-2",
+                            "score": 1.25
+                        },
+                        {
+                            "answerLabel": "-3",
+                            "score": -1.5
+                        },
+                        {
+                            "answerLabel": "2",
+                            "score": 1.25
+                        },
+                        {
+                            "answerLabel": "0",
+                            "score": -1.0
+                        }
+                    ]
+                },
+                {
+                    "maxScoreQuestion": 2.5,
+                    "minScoreQuestion": 0.0,
+                    "qStatement": "Test multiple, on va vous poser plusieurs questions et vous cocherez soit T pour vrai, \nsoit F pour faux. Bon courage à vous",
+                    "numberOfAnswers": 4,
+                    "questionType": "MultipleTF",
+                    "answers": [
+                        {
+                            "answerLabel": "2 > -2",
+                            "score": [1.5, -0.5]
+                        },
+                        {
+                            "answerLabel": "-2 > 2",
+                            "score": [-0.5, 1.5]
+                        },
+                        {
+                            "answerLabel": "2 = 2 * 1",
+                            "score": [1.5, -0.5]
+                        },
+                        {
+                            "answerLabel": "2 = 4 / 2",
+                            "score": [1.5, -0.5]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "maxScoreExercise": 10.0,
+            "eSText": "Ceci est le 2nd exercice. Etes vou un robot?",
+            "numberOfQuestions": 2,
+            "qOrganization": false,
+            "questions": [
+                {
+                    "maxScoreQuestion": 5.0,
+                    "minScoreQuestion": 0.0,
+                    "qStatement": "Combien y a-t-il de feux sur cette image ?",
+                    "numberOfAnswers": 3,
+                    "media": [
+                        {
+                        "path":"./feux_tri.jpeg",
+                        "width":10,
+                        "height": 10,
+                        "mediaAlignment":"C"
+                        }
+                    ],
+                    "questionType": "OneInN",
+                    "answers": [
+                        {
+                            "answerLabel": "2",
+                            "score": 0
+                        },
+                        {
+                            "answerLabel": "0",
+                            "score": 0
+                        },
+                        {
+                            "answerLabel": "1",
+                            "score": 5
+                        },
+                        {
+                            "answerLabel": "3",
+                            "score": 0
+                        }
+                    ]
+                },
+                {
+                    "maxScoreQuestion": 5,
+                    "minScoreQuestion": 0.0,
+                    "qStatement": "Quelle est la couleur de ce feu ?",
+                    "numberOfAnswers": 4,
+                    "questionType": "OneInN",
+                    "answers": [
+                        {
+                            "answerLabel": "Orange",
+                            "score": 0
+                        },
+                        {
+                            "answerLabel": "Vert",
+                            "score": 5
+                        },
+                        {
+                            "answerLabel": "Rouge",
+                            "score": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,539 @@
+{
+    "md": {
+        "id": 0,
+        "hash": [
+            136,
+            254,
+            208,
+            69,
+            168,
+            241,
+            25,
+            213,
+            36,
+            231,
+            210,
+            7,
+            247,
+            153,
+            222,
+            79
+        ]
+    },
+    "grading": {
+        "note": "Number",
+        "student_id": {
+            "Digits": 8
+        }
+    },
+    "max": 20.0,
+    "min": 0.0,
+    "ex": {
+        "SID": {
+            "max": 0.0,
+            "min": 0.0,
+            "q": {
+                "SIDN0": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 0
+                        }
+                    ],
+                    "a": {
+                        "SIDN0A0": {
+                            "score": 0
+                        },
+                        "SIDN0A1": {
+                            "score": 1
+                        },
+                        "SIDN0A2": {
+                            "score": 2
+                        },
+                        "SIDN0A3": {
+                            "score": 3
+                        },
+                        "SIDN0A4": {
+                            "score": 4
+                        },
+                        "SIDN0A5": {
+                            "score": 5
+                        },
+                        "SIDN0A6": {
+                            "score": 6
+                        },
+                        "SIDN0A7": {
+                            "score": 7
+                        },
+                        "SIDN0A8": {
+                            "score": 8
+                        },
+                        "SIDN0A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN1": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 1
+                        }
+                    ],
+                    "a": {
+                        "SIDN1A0": {
+                            "score": 0
+                        },
+                        "SIDN1A1": {
+                            "score": 1
+                        },
+                        "SIDN1A2": {
+                            "score": 2
+                        },
+                        "SIDN1A3": {
+                            "score": 3
+                        },
+                        "SIDN1A4": {
+                            "score": 4
+                        },
+                        "SIDN1A5": {
+                            "score": 5
+                        },
+                        "SIDN1A6": {
+                            "score": 6
+                        },
+                        "SIDN1A7": {
+                            "score": 7
+                        },
+                        "SIDN1A8": {
+                            "score": 8
+                        },
+                        "SIDN1A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN2": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 2
+                        }
+                    ],
+                    "a": {
+                        "SIDN2A0": {
+                            "score": 0
+                        },
+                        "SIDN2A1": {
+                            "score": 1
+                        },
+                        "SIDN2A2": {
+                            "score": 2
+                        },
+                        "SIDN2A3": {
+                            "score": 3
+                        },
+                        "SIDN2A4": {
+                            "score": 4
+                        },
+                        "SIDN2A5": {
+                            "score": 5
+                        },
+                        "SIDN2A6": {
+                            "score": 6
+                        },
+                        "SIDN2A7": {
+                            "score": 7
+                        },
+                        "SIDN2A8": {
+                            "score": 8
+                        },
+                        "SIDN2A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN3": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 3
+                        }
+                    ],
+                    "a": {
+                        "SIDN3A0": {
+                            "score": 0
+                        },
+                        "SIDN3A1": {
+                            "score": 1
+                        },
+                        "SIDN3A2": {
+                            "score": 2
+                        },
+                        "SIDN3A3": {
+                            "score": 3
+                        },
+                        "SIDN3A4": {
+                            "score": 4
+                        },
+                        "SIDN3A5": {
+                            "score": 5
+                        },
+                        "SIDN3A6": {
+                            "score": 6
+                        },
+                        "SIDN3A7": {
+                            "score": 7
+                        },
+                        "SIDN3A8": {
+                            "score": 8
+                        },
+                        "SIDN3A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN4": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 4
+                        }
+                    ],
+                    "a": {
+                        "SIDN4A0": {
+                            "score": 0
+                        },
+                        "SIDN4A1": {
+                            "score": 1
+                        },
+                        "SIDN4A2": {
+                            "score": 2
+                        },
+                        "SIDN4A3": {
+                            "score": 3
+                        },
+                        "SIDN4A4": {
+                            "score": 4
+                        },
+                        "SIDN4A5": {
+                            "score": 5
+                        },
+                        "SIDN4A6": {
+                            "score": 6
+                        },
+                        "SIDN4A7": {
+                            "score": 7
+                        },
+                        "SIDN4A8": {
+                            "score": 8
+                        },
+                        "SIDN4A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN5": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 5
+                        }
+                    ],
+                    "a": {
+                        "SIDN5A0": {
+                            "score": 0
+                        },
+                        "SIDN5A1": {
+                            "score": 1
+                        },
+                        "SIDN5A2": {
+                            "score": 2
+                        },
+                        "SIDN5A3": {
+                            "score": 3
+                        },
+                        "SIDN5A4": {
+                            "score": 4
+                        },
+                        "SIDN5A5": {
+                            "score": 5
+                        },
+                        "SIDN5A6": {
+                            "score": 6
+                        },
+                        "SIDN5A7": {
+                            "score": 7
+                        },
+                        "SIDN5A8": {
+                            "score": 8
+                        },
+                        "SIDN5A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN6": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 6
+                        }
+                    ],
+                    "a": {
+                        "SIDN6A0": {
+                            "score": 0
+                        },
+                        "SIDN6A1": {
+                            "score": 1
+                        },
+                        "SIDN6A2": {
+                            "score": 2
+                        },
+                        "SIDN6A3": {
+                            "score": 3
+                        },
+                        "SIDN6A4": {
+                            "score": 4
+                        },
+                        "SIDN6A5": {
+                            "score": 5
+                        },
+                        "SIDN6A6": {
+                            "score": 6
+                        },
+                        "SIDN6A7": {
+                            "score": 7
+                        },
+                        "SIDN6A8": {
+                            "score": 8
+                        },
+                        "SIDN6A9": {
+                            "score": 9
+                        }
+                    }
+                },
+                "SIDN7": {
+                    "kind": "OneInN",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "gd": [
+                        "student_id",
+                        {
+                            "Digits": 7
+                        }
+                    ],
+                    "a": {
+                        "SIDN7A0": {
+                            "score": 0
+                        },
+                        "SIDN7A1": {
+                            "score": 1
+                        },
+                        "SIDN7A2": {
+                            "score": 2
+                        },
+                        "SIDN7A3": {
+                            "score": 3
+                        },
+                        "SIDN7A4": {
+                            "score": 4
+                        },
+                        "SIDN7A5": {
+                            "score": 5
+                        },
+                        "SIDN7A6": {
+                            "score": 6
+                        },
+                        "SIDN7A7": {
+                            "score": 7
+                        },
+                        "SIDN7A8": {
+                            "score": 8
+                        },
+                        "SIDN7A9": {
+                            "score": 9
+                        }
+                    }
+                }
+            }
+        },
+        "E1": {
+            "max": 10.0,
+            "min": 0.0,
+            "q": {
+                "E1Q1": {
+                    "kind": "MCQ",
+                    "max": 2.5,
+                    "min": 0.0,
+                    "gd": [
+                        "note",
+                        "Number"
+                    ],
+                    "a": {
+                        "E1Q1A1": {
+                            "score": 1.25
+                        },
+                        "E1Q1A2": {
+                            "score": -2.5
+                        },
+                        "E1Q1A3": {
+                            "score": 1.25
+                        }
+                    }
+                },
+                "E1Q2": {
+                    "kind": "OneInN",
+                    "max": 2.5,
+                    "min": 0.0,
+                    "gd": [
+                        "note",
+                        "Number"
+                    ],
+                    "a": {
+                        "E1Q2A1": {
+                            "score": 0
+                        },
+                        "E1Q2A2": {
+                            "score": 0
+                        },
+                        "E1Q2A3": {
+                            "score": 2.5
+                        },
+                        "E1Q2A4": {
+                            "score": 0
+                        }
+                    }
+                },
+                "E1Q3": {
+                    "kind": "MCQ",
+                    "max": 2.5,
+                    "min": 0.0,
+                    "gd": [
+                        "note",
+                        "Number"
+                    ],
+                    "a": {
+                        "E1Q3A1": {
+                            "score": 1.25
+                        },
+                        "E1Q3A2": {
+                            "score": -1.5
+                        },
+                        "E1Q3A3": {
+                            "score": 1.25
+                        },
+                        "E1Q3A4": {
+                            "score": -1.0
+                        }
+                    }
+                },
+                "E1Q4": {
+                    "kind": "MultipleTF",
+                    "max": 2.5,
+                    "min": 0.0,
+                    "gd": [
+                        "note",
+                        "Number"
+                    ],
+                    "a": {
+                        "E1Q4A1": {
+                            "score": [
+                                1.5,
+                                -0.5
+                            ]
+                        },
+                        "E1Q4A2": {
+                            "score": [
+                                -0.5,
+                                1.5
+                            ]
+                        },
+                        "E1Q4A3": {
+                            "score": [
+                                1.5,
+                                -0.5
+                            ]
+                        },
+                        "E1Q4A4": {
+                            "score": [
+                                1.5,
+                                -0.5
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "E2": {
+            "max": 10.0,
+            "min": 0.0,
+            "q": {
+                "E2Q1": {
+                    "kind": "OneInN",
+                    "max": 5.0,
+                    "min": 0.0,
+                    "gd": [
+                        "note",
+                        "Number"
+                    ],
+                    "a": {
+                        "E2Q1A1": {
+                            "score": 0
+                        },
+                        "E2Q1A2": {
+                            "score": 0
+                        },
+                        "E2Q1A3": {
+                            "score": 5
+                        },
+                        "E2Q1A4": {
+                            "score": 0
+                        }
+                    }
+                },
+                "E2Q2": {
+                    "kind": "OneInN",
+                    "max": 5,
+                    "min": 0.0,
+                    "gd": [
+                        "note",
+                        "Number"
+                    ],
+                    "a": {
+                        "E2Q2A1": {
+                            "score": 0
+                        },
+                        "E2Q2A2": {
+                            "score": 5
+                        },
+                        "E2Q2A3": {
+                            "score": 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

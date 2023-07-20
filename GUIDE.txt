@@ -40,7 +40,7 @@ You can now print your exam, have it answered, and scan the answered papers.
 
   - Scan your exam files. 
     You do not need to scan in color.
-    A resolution of 300dpi is appreciated but not required. The notation should work even at 100dpi.
+    A resolution of 300dpi is appreciated but not required. The notation should work even at 100dpi if we are to make the QR code bigger.
     Your scans must be of roughly the same size as your original document.
       that is, if your exam was on A4 paper, you should scan it as A4.
       to put it another way, the margins of the scanned files must be minimal.
@@ -49,6 +49,18 @@ You can now print your exam, have it answered, and scan the answered papers.
       they cannot currently be rotated 90°, though this is something that can be fixed.
     Your scans must not be mirrored.
 
-  - 
+  - For a single copy, gather the required files
+      the scanned pages of this copy,
+      the generated files (positions: file.json and model: model.json)
 
+  - Run the reader on your files
+    $ reader/target/release/reader -p=<generated_position_file> -m=<generated_model_file> <scanned_pages>...
+    If you encounter issues when building reader with the opencv binding library, refer to https://crates.io/crates/opencv, section "Toubleshooting".
 
+    Dot not worry! The reader has many fail states, and you will be informed
+      when anything seems off (pages missing, wrong pages, wrong files...)
+
+    The reader does not yet give any kind of "confidence" information 
+    (that is, information about the confidence of its results), though.
+
+You should now have your grades!
